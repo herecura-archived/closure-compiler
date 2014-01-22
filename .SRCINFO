@@ -6,7 +6,7 @@ pkgbase = closure-compiler
 	arch = any
 	license = APACHE
 	depends = java-runtime
-	source = http://closure-compiler.googlecode.com/files/compiler-20131014.tar.gz
+	source = http://dl.google.com/closure-compiler/compiler-20131014.tar.gz
 	sha256sums = 9a59efcd3179d3c4c8e81445c5fad9aa928f698cf80131b8429c5afdae5a7a8e
 
 pkgname = closure-compiler
