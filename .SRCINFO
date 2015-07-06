@@ -1,7 +1,7 @@
 pkgbase = closure-compiler
 	pkgdesc = Performs checking, instrumentation and optimizations on Javascript code.
 	pkgver = 20150609
-	pkgrel = 1
+	pkgrel = 2
 	url = https://developers.google.com/closure/compiler/
 	arch = any
 	license = APACHE
