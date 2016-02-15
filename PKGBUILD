@@ -11,6 +11,7 @@ license=('APACHE')
 depends=('java-runtime')
 makedepends=('apache-ant' 'git')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/google/$pkgname/archive/v$pkgver.tar.gz")
+sha256sums=('c478e90974c06cf7aefb400b6f1628443c6d7a6fdcc263143bd0d258a4bec939')
 
 LANG='en_US.UTF-8'
 
@@ -36,4 +37,3 @@ package() {
 	chmod +x "$pkgdir/usr/bin/closure"
 }
 
-sha256sums=('c478e90974c06cf7aefb400b6f1628443c6d7a6fdcc263143bd0d258a4bec939')
